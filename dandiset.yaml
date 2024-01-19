@@ -13,9 +13,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 5113867762
-  numberOfFiles: 8
-  numberOfSubjects: 16
+  numberOfBytes: 7252540593
+  numberOfFiles: 11
+  numberOfSubjects: 22
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9913
@@ -71,7 +71,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-10-17T15:00:46.437652+00:00'
-datePublished: '2024-01-19T17:01:24.007628+00:00'
+datePublished: '2024-01-19T19:55:24.051535+00:00'
 description: These experimental trials demonstrate the feasibility of achieving remote
   targeting in electroporation by utilizing sequences of unipolar nanosecond electric
   pulses (nsEP), with the rotation of these packets further enhancing the process.
@@ -91,13 +91,13 @@ name: Focusing electroporation to the center of a quadrupole electrode array by 
   of unipolar pulses (NextGeneration-CANCAN)
 protocol: []
 publishedBy:
-  endDate: '2024-01-19T17:01:24.007628+00:00'
-  id: urn:uuid:f7aa5ef0-495b-4b51-a86f-eba7ecb3a7ec
+  endDate: '2024-01-19T19:55:24.051535+00:00'
+  id: urn:uuid:54d4bb1f-cc5a-465d-a379-333632fa2cd1
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-19T17:01:24.007628+00:00'
+  startDate: '2024-01-19T19:55:24.051535+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:5dcd31ee-d5d4-4f0e-a957-fb7804fb502f
+  - id: urn:uuid:492d0f1b-d6ed-4515-b778-986f724ebc01
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
