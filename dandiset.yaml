@@ -7,12 +7,25 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 5113867762
+  numberOfFiles: 8
+  numberOfSubjects: 16
   schemaKey: AssetsSummary
-citation: Silkuniene, Giedre; Silkunas, Mantas; Pakhomov, Andrei (2023) Real-time
-  visualization and measurements of individual electropores (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000686/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9913
+    name: Bos taurus - Cattle
+    schemaKey: SpeciesType
+  variableMeasured: []
+citation: Silkuniene, Giedre; Pakhomov, Andrei; Gudvangen, Emily; Mangalanathan, Uma;
+  Semenov, Iurii (2024) Focusing electroporation to the center of a quadrupole electrode
+  array by interference of unipolar pulses (NextGeneration-CANCAN) (Version draft)
+  [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -27,15 +40,6 @@ contributor:
   - dcite:FormalAnalysis
   schemaKey: Person
 - affiliation: []
-  identifier: 0000-0002-4568-9265
-  includeInCitation: true
-  name: Silkunas, Mantas
-  roleName:
-  - dcite:DataCollector
-  - dcite:Author
-  - dcite:Researcher
-  schemaKey: Person
-- affiliation: []
   identifier: 0000-0003-3816-3860
   includeInCitation: true
   name: Pakhomov, Andrei
@@ -43,14 +47,38 @@ contributor:
   - dcite:Author
   - dcite:ProjectLeader
   schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Gudvangen, Emily
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mangalanathan, Uma
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-0302-1355
+  includeInCitation: true
+  name: Semenov, Iurii
+  roleName: []
+  schemaKey: Person
+- awardNumber: NIH 1R21EY034258
+  contactPoint: []
+  includeInCitation: false
+  name: 'National Institutes of Health '
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2023-10-17T15:00:46.437652+00:00'
-description: The recordings capture time-resolved examinations of individual electropores
-  in cells placed on an indium tin oxide (ITO) surface, permeabilized by brief voltage
-  steps. They feature time-lapse total internal reflection fluorescence (TIRF) imaging,
-  highlighting the detection of electropores as distinct Ca2+ "puffs" adjacent to
-  the ITO. The data includes the puffs' endurance over time, their responsiveness
-  to minor voltage applications, and a detailed analysis of electropore conductance,
-  without presenting the final results.
+datePublished: '2024-01-19T17:01:24.007628+00:00'
+description: These experimental trials demonstrate the feasibility of achieving remote
+  targeting in electroporation by utilizing sequences of unipolar nanosecond electric
+  pulses (nsEP), with the rotation of these packets further enhancing the process.
+  Electroporation of the cells was evaluated using 1 uM YoPro-1 cell impermeable fluorescent
+  dye. The study was supported in part by R21EY034258 from the National Eye Institute
+  to A.G.P
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000686/draft
 identifier: DANDI:000686
@@ -59,13 +87,39 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000686/versions/draft/assets/
-name: Real-time visualization and measurements of individual electropores
+name: Focusing electroporation to the center of a quadrupole electrode array by interference
+  of unipolar pulses (NextGeneration-CANCAN)
 protocol: []
-relatedResource: []
+publishedBy:
+  endDate: '2024-01-19T17:01:24.007628+00:00'
+  id: urn:uuid:f7aa5ef0-495b-4b51-a86f-eba7ecb3a7ec
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-01-19T17:01:24.007628+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:5dcd31ee-d5d4-4f0e-a957-fb7804fb502f
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource:
+- identifier: 10.1016/j.bioelechem.2023.108437
+  name: Next generation CANCAN focusing for remote stimulation by nanosecond electric
+    pulses
+  relation: dcite:IsPublishedIn
+  schemaKey: Resource
+  url: https://pubmed.ncbi.nlm.nih.gov/37030093/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
 url: https://dandiarchive.org/dandiset/000686/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- endDate: '2024-08-01T00:00:00-04:00'
+  identifier: NIH 1R21EY034258
+  name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+  schemaKey: Project
+  startDate: '2022-08-01T00:00:00-04:00'
+  used: []
+  wasAssociatedWith: []
