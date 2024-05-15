@@ -13,9 +13,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 7252540593
-  numberOfFiles: 11
-  numberOfSubjects: 22
+  numberOfBytes: 11736585692
+  numberOfFiles: 18
+  numberOfSubjects: 36
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9913
@@ -24,8 +24,8 @@ assetsSummary:
   variableMeasured: []
 citation: Silkuniene, Giedre; Pakhomov, Andrei; Gudvangen, Emily; Mangalanathan, Uma;
   Semenov, Iurii (2024) Focusing electroporation to the center of a quadrupole electrode
-  array by interference of unipolar pulses (NextGeneration-CANCAN) (Version draft)
-  [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  array by interference of unipolar pulses (NextGeneration-CANCAN) (Version 0.240515.1909)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000686/0.240515.1909
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -78,15 +78,15 @@ description: These experimental trials demonstrate the feasibility of achieving 
   Electroporation of the cells was evaluated using 1 uM YoPro-1 cell impermeable fluorescent
   dye. The study was supported in part by R21EY034258 from the National Eye Institute
   to A.G.P
-doi: 10.80507/dandi.123456/0.123456.1234
+doi: 10.48324/dandi.000686/0.240515.1909
 ethicsApproval: []
-id: DANDI:000686/draft
+id: DANDI:000686/0.240515.1909
 identifier: DANDI:000686
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000686/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000686/0.240515.1909/assets.yaml
 name: Focusing electroporation to the center of a quadrupole electrode array by interference
   of unipolar pulses (NextGeneration-CANCAN)
 protocol: []
@@ -113,8 +113,8 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000686/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000686/0.240515.1909
+version: 0.240515.1909
 wasGeneratedBy:
 - endDate: '2024-08-01T00:00:00-04:00'
   identifier: NIH 1R21EY034258
